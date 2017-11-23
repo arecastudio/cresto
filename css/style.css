@@ -1,0 +1,256 @@
+body{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size: 13px;
+	/*font size: 12px; font-family: Georgia, Serif;*/
+}
+
+#wrapper{
+	background: #ccc;
+}
+
+#head{
+	background: linear-gradient(#888,#222);
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	vertical-align: middle;
+	color: #ddf;
+}
+
+#foot{
+	background: linear-gradient(#888,#222);
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px;
+	height: 30px;
+	vertical-align: middle;
+	color: #ddf;
+}
+
+#body-content{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#table-menu{
+	width: 100%;
+}
+
+.kanan{
+	background-color: #eee;
+	vertical-align: text-top;
+	padding: 5px;
+}
+
+.kiri{
+	background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* BOF menu dan sub menu*/
+.sub-menu{
+	width: 200px;
+	height: 150px;
+	border: dashed 2px #ccf;
+	border-radius: 10px;
+	float: left;
+	background-color: #fff;
+	margin: 3px;color: #000;
+	padding: 5px;
+}
+.sub-menu img{
+	width: 100px;
+	height: 100px;
+}
+.sub-menu:hover{
+	background-color: #ffb;
+}
+/* EOF menu dan sub menu*/
+
+
+/* BOF sub menu hak akses*/
+.sub-menu-role{
+	width: 150px;
+	height: 300px;
+	border: dotted 1px #ccf;
+	border-radius: 2px;
+	float: left;
+	background-color: #fff;
+	margin: 5px;color: #000;
+	padding: 10px;
+}
+.sub-menu-role img{
+	width: 100px;
+	height: 100px;
+}
+.sub-menu-role input[type=checkbox]{
+	margin-bottom: 15px;
+}
+.sub-menu-role:hover{
+	background-color: #ffb;
+}
+/* EOF sub menu hak akses*/
+
+
+/* BOF menu produk*/
+.sub-menu-produk{
+	width: 150px;
+	height: 120px;
+	border: dashed 2px #ccf;
+	border-radius: 10px;
+	float: left;
+	background-color: #fff;
+	margin: 3px;color: #000;
+	padding: 5px;
+}
+.sub-menu-produk img{
+	width: 70px;
+}
+.sub-menu-produk:hover{
+	background-color: #ffb;
+}
+/* EOF menu produk*/
+
+.lokasi,a{
+	text-decoration: none;
+	color: #777;
+}
+
+.judul-frame{
+	text-align: center;
+	background:linear-gradient(#909,#000);
+	color: #fff;
+	align-content: center;
+	font-size: 150%;
+}
+
+hr{
+	border: none;
+	border-bottom: dashed 1px #555;
+}
+
+.data-entry{
+	background-color: #fff;
+	padding: 5px;
+	float: left;
+	margin-right: 5px;
+}
+
+.data-view{
+	background-color: #ddd;
+	padding: 5px;
+	float: left;
+	height: 460px;
+	width: 740px;
+	overflow: auto;
+}
+
+.data-view table{
+	border-collapse: collapse;
+}
+
+.data-view table td{
+	border-color: #ccc;
+}
+
+.data-view table th{
+	color: #ccf;
+	background: linear-gradient(#777,#333);
+}
+
+.data-view table tr{
+	background-color: #fff;
+}
+
+.data-view table tr:hover{
+	background-color: #ccf;
+}
+
+/*
+data view kecil
+*/
+
+.data-view-kecil{
+	background-color: #ddd;
+	padding: 5px;
+	float: left;
+	height: 300px;
+	width: 740px;
+	overflow: auto;
+}
+
+.data-view-kecil table{
+	border-collapse: collapse;
+}
+
+.data-view-kecil table td{
+	border-color: #ccc;
+}
+
+.data-view-kecil table th{
+	color: #ccf;
+	background: linear-gradient(#777,#333);
+}
+
+.data-view-kecil table tr{
+	background-color: #fff;
+}
+
+.data-view-kecil table tr:hover{
+	background-color: #ccf;
+}
+
+/*
+data view besar
+*/
+
+.data-view-besar{
+	background-color: #ddd;
+	padding: 5px;
+	height: 400px;
+	overflow: auto;
+}
+
+.data-view-besar table{
+	border-collapse: collapse;
+}
+
+.data-view-besar table td{
+	border-color: #ccc;
+}
+
+.data-view-besar table th{
+	color: #ccf;
+	background: linear-gradient(#777,#333);
+}
+
+.data-view-besar table tr{
+	background-color: #fff;
+}
+
+.data-view-besar table tr:hover{
+	background-color: #ccf;
+}

@@ -1,0 +1,16 @@
+RewriteEngine On
+#RewriteCond $1 !^(index\.php|images)
+#RewriteRule ^(.*)$ /index.php?ref=$1 [L]
+
+#RewriteRule ^.*$ localhost/index.php [L]
+
+RewriteRule ^masuk$ login.php [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?ref=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?ref=$1
+
+RewriteRule ^non-cash-payment/pil/([a-zA-Z0-9_-]+)$ non-cash-payment.php?pil=$1
+RewriteRule ^non-cash-payment/pil/([a-zA-Z0-9_-]+)/$ non-cash-payment.php?pil=$1
+
+RewriteRule ^non-cash-payment/nama/([a-zA-Z0-9_-]+)$ non-cash-payment.php?nama=$1
+RewriteRule ^non-cash-payment/nama/([a-zA-Z0-9_-]+)/$ non-cash-payment.php?nama=$1
